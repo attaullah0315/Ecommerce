@@ -1,0 +1,42 @@
+/* :host {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+} */
+:host {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    /* background-color: aquamarine; */
+    /* Ensure it uses full height of the available space */
+}
+
+.common-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+}
+
+.signup, .login{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #619f9f;
+}
+
+.auth-toggleLink {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #619f9f;
+    cursor: pointer;
+}
+  
+
+p{
+    color: red;
+    margin-bottom: 10px;
+}
